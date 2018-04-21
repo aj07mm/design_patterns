@@ -27,7 +27,7 @@ class Abstraction:
 class RefinedAbstraction(Abstraction):
 
     def __init__(self, _implementation):
-        self._implementation = _implementation
+        self._implementation = _implementation # <- bridge
 
     def draw_circle(self):
         self._implementation.draw_square()
