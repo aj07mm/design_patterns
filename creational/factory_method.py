@@ -4,6 +4,8 @@
     This is done by creating objects by calling a factory method—either specified in an interface and implemented by child classes, 
     or implemented in a base class and optionally overridden by derived classes—rather than by calling a constructor.
 
+    OBS: factory method is just a method abstract factory is an object
+
     https://en.wikipedia.org/wiki/Factory_method_pattern
 
     Creator
